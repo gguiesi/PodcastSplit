@@ -8,6 +8,6 @@ public class PodcastSplitTest {
 	public static void main(String[] args) {
 		PodcastSplit podcastSplit = new PodcastSplit();
 		podcastSplit.listPodcasts("../Multiverso DC » ComicPod");
+		podcastSplit.listPodcasts("../dccast");
 	}
-
 }
