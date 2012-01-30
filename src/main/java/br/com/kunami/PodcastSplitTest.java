@@ -7,7 +7,7 @@ public class PodcastSplitTest {
 	 */
 	public static void main(String[] args) {
 		PodcastSplit podcastSplit = new PodcastSplit();
-		podcastSplit.listPodcasts("../Multiverso DC » ComicPod");
-		podcastSplit.listPodcasts("../dccast");
+		podcastSplit.listPodcasts("/Users/geraldo.junior/Music/iTunes/iTunes Media/Podcasts");
+		System.out.println("\nEnd of program.");
 	}
 }
