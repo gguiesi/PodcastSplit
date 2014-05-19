@@ -13,7 +13,7 @@ public class PodcastSplit {
 	public void split(String path) {
 		File podcast = new File(path);
 		String dir = getDirectoryName(podcast.getName());
-		String newPath = "../result/" + podcast.getParentFile().getName();
+		String newPath = "/Volumes/GUIESI/result/" + podcast.getParentFile().getName();
 		boolean directoryCreated = new File(newPath + File.separator + dir)
 				.mkdirs();
 
